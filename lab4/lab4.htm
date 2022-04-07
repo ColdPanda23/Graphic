@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="200px" viewBox="-2 -2 4 4" preserveAspectRatio="xMidYMid">
+  <defs>
+    <g id="podstawa">
+      <polygon points="-0.25,1 0,-1 0.25,1" />
+    </g>
+    <g id="belka">
+      <line x1="-1" x2="1" y1="-0.25" y2="0.25" stroke="red" stroke-width="0.15" />
+    </g>
+    <g id="poly" transform="rotate(0)">
+      <polygon points="0,1 0.951,0.309 0.587,-0.809 -0.587,-0.809 -0.951,0.307" transform="scale(-1)" stroke="black" stroke-width="0.02" fill="none" />
+      <line x1="0" x2="0" y1="-1" y2="0" stroke="black" stroke-width="0.02" />
+      <line x1="0.951" x2="0" y1="-0.309" y2="0" stroke="black" stroke-width="0.02" />
+      <line x1="-0.951" x2="0" y1="-0.309" y2="0" stroke="black" stroke-width="0.02" />
+      <line x1="0.587" x2="0" y1="0.809" y2="0" stroke="black" stroke-width="0.02" />
+      <line x1="-0.587" x2="0" y1="0.809" y2="0" stroke="black" stroke-width="0.02" />
+      
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" begin="0s" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <g id="wiatrak">
+      <use xlink:href="#poly" transform="translate(0.7 -0.325) scale(0.5 0.5)" />
+      <use xlink:href="#poly" transform="translate(-0.7 -0.675) scale(0.5 0.5)" />
+      <use xlink:href="#belka" transform="translate(0 -0.5) scale(0.75 0.75)"/>
+      <use xlink:href="#podstawa" transform="translate(0 0.25) scale(0.75 0.75)" />
+    </g>
+  </defs>
+  <use xlink:href="#wiatrak" fill="blue" transform="translate(0, 0.3) scale(0.75)"/>
+  <use xlink:href="#wiatrak" fill="magenta" transform="translate(-1.2, -0.75) scale(0.6)" />
+  <use xlink:href="#wiatrak" fill="green"  transform="translate(1, -0.75) scale(0.5)"/>
+</svg>
