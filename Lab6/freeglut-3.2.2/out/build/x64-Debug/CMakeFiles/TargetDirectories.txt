@@ -1,0 +1,7 @@
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/freeglut.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/freeglut_static.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/install.dir
+C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/install/local.dir

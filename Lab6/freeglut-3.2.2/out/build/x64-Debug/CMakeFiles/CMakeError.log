@@ -1,0 +1,113 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5f304 && [1/2] Building C object CMakeFiles\cmTC_5f304.dir\HAVE_UNISTD_H.c.obj
+FAILED: CMakeFiles/cmTC_5f304.dir/HAVE_UNISTD_H.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_5f304.dir\HAVE_UNISTD_H.c.obj /FdCMakeFiles\cmTC_5f304.dir\ /FS -c C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_87041 && [1/2] Building C object CMakeFiles\cmTC_87041.dir\HAVE_SYS_TIME_H.c.obj
+FAILED: CMakeFiles/cmTC_87041.dir/HAVE_SYS_TIME_H.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_87041.dir\HAVE_SYS_TIME_H.c.obj /FdCMakeFiles\cmTC_87041.dir\ /FS -c C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5496c && [1/2] Building C object CMakeFiles\cmTC_5496c.dir\HAVE_SYS_PARAM_H.c.obj
+FAILED: CMakeFiles/cmTC_5496c.dir/HAVE_SYS_PARAM_H.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_5496c.dir\HAVE_SYS_PARAM_H.c.obj /FdCMakeFiles\cmTC_5496c.dir\ /FS -c C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2db6a && [1/2] Building C object CMakeFiles\cmTC_2db6a.dir\HAVE_SYS_IOCTL_H.c.obj
+FAILED: CMakeFiles/cmTC_2db6a.dir/HAVE_SYS_IOCTL_H.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2db6a.dir\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\cmTC_2db6a.dir\ /FS -c C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5146f && [1/2] Building C object CMakeFiles\cmTC_5146f.dir\HAVE_USBHID_H.c.obj
+FAILED: CMakeFiles/cmTC_5146f.dir/HAVE_USBHID_H.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_5146f.dir\HAVE_USBHID_H.c.obj /FdCMakeFiles\cmTC_5146f.dir\ /FS -c C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c
+C:\Users\PC\Desktop\Programing\grafikakomputerowa\Graphic\Lab6\freeglut-3.2.2\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c(2): fatal error C1083: Cannot open include file: 'usbhid.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b518e && [1/2] Building C object CMakeFiles\cmTC_b518e.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_b518e.exe
+FAILED: cmTC_b518e.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b518e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b518e.dir\CheckFunctionExists.c.obj  /out:cmTC_b518e.exe /implib:cmTC_b518e.lib /pdb:cmTC_b518e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b518e.dir\CheckFunctionExists.c.obj /out:cmTC_b518e.exe /implib:cmTC_b518e.lib /pdb:cmTC_b518e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_b518e.dir/intermediate.manifest CMakeFiles\cmTC_b518e.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main
+cmTC_b518e.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Users/PC/Desktop/Programing/grafikakomputerowa/Graphic/Lab6/freeglut-3.2.2/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3ebac && [1/2] Building C object CMakeFiles\cmTC_3ebac.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_3ebac.exe
+FAILED: cmTC_3ebac.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3ebac.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3ebac.dir\CheckFunctionExists.c.obj  /out:cmTC_3ebac.exe /implib:cmTC_3ebac.lib /pdb:cmTC_3ebac.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3ebac.dir\CheckFunctionExists.c.obj /out:cmTC_3ebac.exe /implib:cmTC_3ebac.lib /pdb:cmTC_3ebac.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3ebac.dir/intermediate.manifest CMakeFiles\cmTC_3ebac.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol XParseGeometry referenced in function main
+cmTC_3ebac.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+

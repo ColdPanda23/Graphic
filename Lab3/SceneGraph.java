@@ -214,7 +214,7 @@ public class SceneGraph extends JPanel {
 	
 	       // Create some basic objects as custom SceneGraphNodes.
 	
-	//Rysowanie wielokata
+	
     private static SceneGraphNode F_Polygon = new SceneGraphNode(){
     	void doDraw(Graphics2D g){
     			int n=17;
@@ -237,7 +237,7 @@ public class SceneGraph extends JPanel {
     	        
     	        for(int i=0;i<n;i++)
     	        {
-    		        g.drawLine( x1[i],y1[i],0,0 );		//rysuje polaczenia w wielokacie
+    		        g.drawLine( x1[i],y1[i],0,0 );		
     	        }
     	        
     	        g.draw(polygon);
@@ -265,7 +265,7 @@ public class SceneGraph extends JPanel {
 	};
 
 	private static SceneGraphNode filledTriangle = new SceneGraphNode() {
-		void doDraw(Graphics2D g) {  // width = 1, height = 1, center of base is at (0,0);
+		void doDraw(Graphics2D g) {  
 			Path2D path = new Path2D.Double();
 			path.moveTo(-0.5,0);
 			path.lineTo(0.5,0);
